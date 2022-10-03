@@ -1,6 +1,6 @@
 #!/bin/bash
 set -euo pipefail
-
+rm -r tempdir
 mkdir tempdir
 rm -r tempdir
 mkdir tempdir/templates
